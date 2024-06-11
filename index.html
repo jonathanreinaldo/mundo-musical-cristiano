@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./diseño.css">
+    <title>MundoMusicalCristiano</title>
+    
+</head>
+<body onclick="playAudio()">
+ 
+    <header>
+    <div class="container">
+        <p class="logo">MUNDO MUSICAL</p>
+        <nav>
+            <a href="#somos-musica">Sobre tu música Cristiana</a>
+
+            <a href="#nuestra-musica">Géneros Musicales</a>
+
+            <a href="#caracteristicas">Características</a>
+        </nav>
+    </div>
+    </header>
+
+    <section id="hero">
+        <h1>Mundo musical <br> Cristiano</h1>
+        <form action="https://youtube.com/@MundoMusicalCristiano.">
+        <button>¡EMPIEZA YA!</button>
+        </form>
+    </section>
+
+     <section id="somos-musica">
+        
+        <div class="container">
+        <div class="img-container"></div>
+        <div class="texto">
+            <h2> Somos <span class="color-acento">tu música</span></h2>
+            <p>En "Somos tu Música" encontraras el tipo de música que te gusta, del género que desees y sobre todo en contaras paz y gozo para sentirte bendecid@.</p>
+        </div>
+
+        
+    </div>
+
+    
+    </section>
+
+    <section id="nuestra-musica">
+
+        <div class="container">
+            <h2>Géneros Musicales</h2>
+        <div class="programas">
+
+        <div class="carta">
+            <h3>Adoración</h3>
+            <p id="respuesta1" style="display: none;"> Rabito <br> Marino <br> Alex Campo <br> Marcos Witt <br> Marcos Vidal <br> Oscar Medina <br> Danilo Montero <br> Damaris Guerra <br> Nancy Amancio <br> Jaime Murrel ...</p>
+            <button onclick="mostrar1()" ondblclick="ocultar1()">+ Info</button>
+        </div>
+
+        <div class="carta">
+            <h3>Reggaeton</h3>
+            <p id="respuesta2" style="display: none;" > Vico C <br> Funky <br> Farruko <br> Redimi2 <br> Indiomar <br> Jay Kalyl<br> Almighty <br> Onell Dias <br> Alex Zurdo  <br> Daddy Yankee ...</p> 
+            <button onclick="mostrar2()" ondblclick="ocultar2()">+ Info</button>
+        </div>
+
+        <div class="carta">
+            <h3>Salsa</h3>
+            <p id="respuesta3" style="display: none;" > Tony Vega <br> Richy Villa <br> Grupo Gale <br> Alex de Castro  <br> Ismael Miranda <br> Martín Valverde <br> David & Abrahan <br> David Nathanael <br> José papo Rivera <br> Richie Ray & Bobbi Cruz ... </p>
+            <button onclick="mostrar3()" ondblclick="ocultar3()">+ Info</button>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+        <div class="container">
+            <ul>
+                <li>✔️Testimonios</li>
+                <li>✔️Reflexiones</li>
+                <li>✔️100% Music Online </li>
+                <li>✔️Música Cristiana del momento</li>
+            </ul>
+        </div>
+    </section>
+  
+    <section id="final">
+    <h2> ¿Listo para comenzar?</h2> 
+       <form action="https://youtube.com/@MundoMusicalCristiano.">
+        <button>¡EMPIEZA YA!</button>
+    </section>
+   
+    <footer>
+        <div class="container">
+        <p>&copy; MundoMusicalCristiano 2024</p>
+        </div>
+    </footer>
+
+    <audio id="musica1"  loop>
+        <source src="./audio/Tu Estas Aqui - Instrumental.mp3" type="audio/mpeg">
+        este navegador no acepta formatos de audio
+    </audio>
+    <script src="./js/java.js"></script>
+</body>
+</html>
